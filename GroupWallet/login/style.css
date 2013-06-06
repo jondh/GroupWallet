@@ -1,0 +1,59 @@
+*					{ margin:0; padding: 0; }
+body				{ font-family: Helvetica, sans-serif; 
+					color:#444444;
+					background: url(http://jondh.com/GroupWallet/images/background.jpg) repeat;}
+					
+a:link              { color:#cc9999; text-decoration:none; }
+a:visited           { color:#cc9999; text-decoration:none; }
+a:hover             { color:#999; }
+
+#textcolor		{ color:white; }
+
+#pagewrap {
+	height: 727px; width: 1000px;
+	margin: 0 auto;
+	background: url(http://jondh.com/GroupWallet/images/login_bg.jpg) no-repeat;
+	}
+	#login{
+		position: absolute;
+		margin-top: 450px;
+		margin-left: 200px;
+		height: 56px; width: 250px;
+		background: url(http://jondh.com/GroupWallet/images/LoginSprite.jpg) no-repeat;
+	}
+	#login:hover{
+		background-position: bottom center;
+	}#fbLogin{
+		position: relative;
+		left: 350px; top: 400px;
+	}#signUpFb{
+		position: relative;
+		width: 70px; height: 30px;
+		left: 400px; top: 400px;
+		background-color: green;
+	}
+	#newuser{ 
+		position: absolute;
+		margin-top: 450px;
+		margin-left: 500px;
+		height: 56px; width:250px;
+		background: url(http://jondh.com/GroupWallet/images/LoginSprite.jpg) no-repeat;
+	}
+	#newuser:hover{
+		background-position: bottom center;
+	}
+	#logininfo{
+		position: relative;
+		top: 400px; left: 350px;
+	}
+	#logininfo input{
+		margin-top: 7px;
+	}
+	#newuserinfo{
+		position: relative;
+		top: 400px; left: 350px;
+	}
+	#newuserinfo input{
+		margin-top: 7px;
+	}
+	

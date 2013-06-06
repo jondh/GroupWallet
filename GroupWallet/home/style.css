@@ -1,0 +1,79 @@
+*					{ margin:0; padding: 0; }
+body				{ font-family: 'Oswald', sans-serif;
+					color:#444444;
+					}
+#wallet{
+	position:absolute;
+	width: 880px; height: 800px;
+	margin: -100px 0 0 60px;
+	background-image: url(../images/walletbg.jpg);
+}#walletHead{
+	position:relative;
+	top: 100px;
+	width: 880px; height: 50px;
+	background-image: url(../images/crossstitch.jpg);
+}#walletFoot{
+	position:absolute;
+	margin: 650px 0 0 60px;
+	width: 880px; height: 50px;
+	background-image: url(../images/crossstitch.jpg);
+	z-index: 40;
+}
+#bottomWallets{
+	position: absolute;
+	margin: 540px 0 0 0;
+	width: 880px; height: 200px;
+	background-image: url(../images/walletbg.jpg);
+	z-index: 40;
+}#middleWallets{
+	position: absolute;
+	margin: 390px 0 0 0;
+	width: 880px; height: 200px;
+	background-image: url(../images/walletbg.jpg);
+	z-index: 12;
+}#topWallets{
+	position: absolute;
+	margin: 240px 0 0 0;
+	width: 880px; height: 200px;
+	background-image: url(../images/walletbg.jpg);
+	z-index: 8;
+}#walletPocket{
+	position: relative;
+	width: 880px; height: 1px;
+	background-image: url(../images/walletpocket.jpg);
+	z-index: 55;
+}#pgBack{
+	position: absolute;
+	margin: 200px 0 0 -50px;
+	width: 40px; height: 200px;
+	background-color: red;
+}#pgForward{
+	position: absolute;
+	margin: 200px 0 0 890px;
+	width: 40px; height: 200px;
+	background-color: yellow;
+}
+.wallbutt{
+	position: absolute;
+	width: 400px; height: 244px;
+}#cardTop{
+	position: relative;
+	width: 400px; height: 49px;
+	background-image: url(../images/goldcard.png);
+}#cardBottom{
+	position: relative;
+	width: 400px; height: 195px;
+	background-image: url(../images/goldcard.png);
+	background-position: center bottom;
+}
+p{
+	position: relative;
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	top: 10px; left: 45px;
+}
+
+
+
+	

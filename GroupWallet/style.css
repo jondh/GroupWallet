@@ -1,0 +1,131 @@
+*					{ margin:0; padding: 0; }
+body				{ font-family: 'Oswald', sans-serif; 
+					color:#444444;
+					background: url(http://jondh.com/GroupWallet/images/background.jpg) repeat;
+					z-index: -1000;
+					cursor: default;
+}
+					
+a:link              { color:#cc9999; text-decoration:none; }
+a:visited           { color:#cc9999; text-decoration:none; }
+a:hover             { color:#999; }
+	
+#header {
+	height: 75px; 
+	background: url(http://jondh.com/GroupWallet/images/topHeader.jpg) repeat-x;
+}
+
+#logout{
+	position: relative;
+	top: -27px; left: 200px;
+	height: 20px; width:100px;
+}
+	
+#pagewrap{
+	width: 900px; height: 1000px;
+    margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom:200px;
+	background: url(http://jondh.com/GroupWallet/images/page_bg.jpg) repeat;
+	z-index: -999;
+}
+#pageTop{
+	position: absolute;
+	width: 1000px; height: 124px;
+	background: url(http://jondh.com/GroupWallet/images/windowTop.jpg) no-repeat;
+}
+#pageLeft{
+	width: 10px; height: 1000px;
+	float: left;
+	background: url(http://jondh.com/GroupWallet/images/windowLeft.jpg) repeat-y;
+}
+#pageRight{
+	width: 10px; height: 1000px;
+	float: right;
+	background: url(http://jondh.com/GroupWallet/images/windowLeft.jpg) repeat-y;
+}
+#pageBottom{
+	position: relative;
+	top: 1000px;
+	width: 900px; height: 68px;
+	background: url(http://jondh.com/GroupWallet/images/windowBottom.jpg) repeat-y;
+}
+#profile{
+	position: relative;
+	top: 50px; left: 10px;
+	width: 880px; height: 125px;
+	/*background-color: yellow;*/
+}#profilePic{
+	position: relative;
+	top: 12px; left: 40px;
+	width: 100px; height: 100px;
+	background-color: black;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}#profileInfo{
+	position: relative;
+	top: -88px; left: 155px;
+	width: 300px; height: 100px;
+	/*background-color: red;*/
+	font-size: 22px;
+}#not1{
+	display: inline;
+	position: relative;
+	top: 7px; left: -10px;
+	width: 66px; height: 40px;
+	padding-right: 66px;
+	padding-top: 10px;
+	/*background-color: green;*/
+	background: url(http://jondh.com/GroupWallet/images/Activity-Logo.png) no-repeat;
+}.walact:hover{
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+	opacity:0.6;
+}#not2{
+	display: inline;
+	position: relative;
+	top: 7px; left: -10px;
+	width: 66px; height: 40px;
+	padding-right: 66px;
+	padding-top:10px;
+	/*background-color: green;*/
+	background: url(http://jondh.com/GroupWallet/images/addwalleticon.png) no-repeat;
+}.walinvite:hover{
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+	opacity:0.6;
+}#notInfo{
+	position: relative;
+	top: -188px; left: 480px;
+	width: 370px; height: 100px;
+	/*background-color: blue;*/
+	font-size: 22px;
+}#activity{
+	position:relative;
+	top:10px;
+	width: 375px; height: 35px;
+	/*background-color: brown;*/
+}#join{
+	position:relative;
+	top:20px;
+	width: 375px; height: 35px;
+	/*background-color: brown;*/
+}
+#iframe{
+	position: relative;
+	top: -750px; left: -50px;
+	width: 1000px; height: 760px;
+	border: none !important;
+}
+#activityDD{
+	position:relative;
+	top: -1767px; left: 260px;
+	width: 300px; 
+	background-color: blue;
+}
+#inviteDD{
+	position:relative;
+	top: -1020px; left: 260px;
+	width: 300px;
+	background-color: orange;
+}
+
+

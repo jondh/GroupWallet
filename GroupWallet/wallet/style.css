@@ -1,0 +1,292 @@
+*					{ margin:0; padding: 0; }
+body				{ font-family: 'Oswald', sans-serif; 
+					color:#444444;
+					cursor: default;
+					}
+					
+a:link              { color:#cc9999; text-decoration:none; }
+a:visited           { color:#cc9999; text-decoration:none; }
+a:hover             { color:#999; }
+
+#textcolor		{ color:white; }
+
+#header{
+	position: relative;
+	width: 880px; height: 50px;
+	background-image: url(../images/crossstitch.jpg);
+}#topButtons{
+	position: relative;
+	width: 880px; height: 50px;
+}
+
+#adduserform{
+	position: relative;
+}#adduser_text{
+	width: 123px; height: 20px;
+}
+#moneytables{
+	position: relative;
+	left: 0px;
+	width:830px;
+	}#oweOutside{
+		float:left;
+		width:400px; 
+	}#owedOutside{
+		float:right;
+		width:400px;
+	}#moneytableowe{
+		position: relative;
+	}
+	#moneytableowed{
+		position: relative;
+	}
+	table.owetable{
+		position: relative;
+		display: inline;
+		overflow: hidden;
+		z-index: 0;
+	}
+	tr.tRow:hover .picDiv{
+		opacity:0.7;
+	}
+	#nameDiv{
+		position:relative;
+		height: 25px; width: 115px;
+		word-wrap: break-word;
+		white-space: no-wrap;
+		overflow: hidden;
+	}
+	#amntDiv{
+		position:relative;
+		height: 25px; width: 75px;
+		word-wrap: break-word;
+		white-space: no-wrap;
+		overflow: hidden;
+	}
+	#commentsDiv{
+		position:relative;
+		height: 25px; width: 195px;
+		word-wrap: break-word;
+		white-space: no-wrap;
+		overflow: hidden;
+	}
+	#pay{
+		position:relative;
+		height: 20px; width: 100%;
+	}#pay1{
+		position:absolute;
+		margin-top: -3px;
+		height: 31px; width: 400px;
+		background-image: url(../images/redmoney.jpg);
+		background-color: blue;
+		z-index:-1000;
+	}
+	#paid{
+		position:relative;
+		height: 20px; width: 100%;
+	}#paid1{
+		position:absolute;
+		margin-top: -3px;
+		height: 31px; width: 400px;
+		background-image: url(../images/whitemoney.jpg);
+		background-color: blue;
+		z-index:-1000;
+	}
+	#accept{
+		position:relative;
+		height: 20px; width: 100%;
+	}#accept1{
+		position:absolute;
+		margin-top: -3px;
+		height: 31px; width: 400px;
+		background-image: url(../images/bluemoney.jpg);
+		background-color: blue;
+		z-index:-1000;
+	}
+	#Cpay{
+		position:absolute;
+		margin-top: -3px;
+		height: 31px; width: 400px;
+		background-image: url(../images/blankcellmoney.jpg);
+	}
+	#Cpaid{
+		position:absolute;
+		margin-top: -5px;
+		height: 31px; width: 400px;
+		background-image: url(../images/blankcellmoney.jpg);
+	}
+	#Caccept{
+		position:absolute;
+		margin-top: -3px;
+		height: 31px; width: 400px;
+		background-image: url(../images/blankcellmoney.jpg);
+	}
+	#moneyHeader{
+		position:relative;
+		height:32px; width: 400px;
+		background-image: url(../images/headermoney.jpg);
+	}
+	#moneyExtra{
+		height:31px; width: 400px;
+		background-image: url(../images/extramoney.jpg);
+	}#moneytopExtra{
+		height:4px; width: 400px;
+		background-image: url(../images/extratopmoney.jpg);
+	}
+	#moneyBottom{
+		position:relative;
+		height:11px; width: 400px;
+		background-image: url(../images/footermoney.jpg);
+	}
+#addpayment{
+	position: absolute;
+	left:47px; top:10px;
+	width: 908px; height: 507px;
+	background: url(../images/moneyPopup.jpg) no-repeat;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	z-index: 5;
+}
+#innerpayment{
+	position: relative;
+	top: 28px;
+	width: 850px; height: 451px;
+}
+#walletusers{
+	height: 100%;
+	word-wrap: break-word;
+	white-space: no-wrap;
+	overflow: hidden;
+}
+.upArea{
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+#x{
+	position: relative;
+	left:435px; top: -450px;
+	width: 24px; height: 27px;
+	background: url(../images/x.png) no-repeat;
+}
+.userProfiles{
+	float: left;
+	width: 170px; height: 451px;
+}
+#names{
+	position:relative;
+	top: 15px;
+	width: 125px; height: 50px;
+	/*background-color: orange;*/
+}
+#picture{
+	position:relative;
+	top: 30px;
+	width: 100px; height: 100px;
+	background-color: black;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+#money_amount{
+	position:relative;
+	top: 45px;
+	width: 125px; height: 30px;
+	/*background-color: purple;*/
+}
+#money_amnt_text, #comments_text, #adduser_text{
+    border: 1px solid #DDDDDD;
+    
+    /*Applying CSS3 gradient*/
+    background: -moz-linear-gradient(center top , #FFFFFF,  #EEEEEE 1px, #FFFFFF 20px);  
+	background: -webkit-linear-gradient(#EEEEEE,#FFFFFF);	
+    background: -webkit-gradient(linear, left top, left 20, from(#FFFFFF), color-stop(5%, #EEEEEE) to(#FFFFFF));
+	
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FBFBFB', endColorstr='#FFFFFF');
+    
+    /*Applying CSS 3radius*/   
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+    /*Applying CSS3 box shadow*/
+    -moz-box-shadow: 0 0 2px #DDDDDD;
+    -webkit-box-shadow: 0 0 2px #DDDDDD;
+    box-shadow: 0 0 2px #DDDDDD;
+}#money_amnt_text{
+	width:123px; height:20px;
+}
+#owe_owed{
+	position:relative;
+	top: 50px;
+	width: 100px; height: 30px;
+	/*background-color: blue;*/
+}
+#comments{
+	position:relative;
+	top: 75px;
+	width: 125px; height: 150px;
+	/*background-color: yellow;*/
+}
+#pgBack{
+	position: absolute;
+	margin: -350px 0 0 -45px;
+	width: 45px; height: 224px;
+	background: url(../images/leftarrow.png) no-repeat;
+	z-index: 0;
+}
+#pgForward{
+	position: absolute;
+	margin: -350px 0 0 907px;
+	width: 45px; height: 224px;
+	background: url(../images/rightarrow.png) no-repeat;
+	z-index: 0;
+}
+#multipleSubmit{
+	position: absolute;
+	width: 80px; height: 40px;
+	margin: -20px 0 0 -40px;
+	z-index: 20;
+}
+#splitCosts{
+	position: relative;
+	width: 80px; height: 40px;
+	left: 50px; top: -20px;
+	z-index: 20;
+}
+#splitPopup{
+	position: absolute;
+	margin: -275px 0 0 35px;
+	width: 838px; height: 260px;
+	/*Applying CSS 3radius*/   
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+	background-color: white;
+	z-index: 25;
+}
+#splitAmntform{
+	position: relative;
+	left: 200px; top: -50px;
+	z-index: 30;
+}
+#splitters{
+	position: absolute;
+	margin: 0 0 0 50px;
+	width: 200px; height: 250px;
+	background-color: purple;
+}
+#splitee{
+	position: absolute;
+	margin: 0 0 0 300px;
+	width: 200px; height: 250px;
+	background-color: red;
+}
+#splitGo{
+	position: relative;
+	left: 300px; top: -70px;
+	z-index: 30;
+}
+#splitCancel{
+	position: relative;
+	left: 380px; top: -300px;
+	z-index: 30;
+}
